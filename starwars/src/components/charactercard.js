@@ -2,17 +2,18 @@ import React from 'react';
 import CharacterDetails from './chrtrdets';
 
 const Character = (props) => {
-    let card = props.info.starwarsChars.map(card => (
+    let cards = props.info.starwarsChars.map(cards => (
         <CharacterDetails
-            name={card.name}
-            gender={card.gender}
+            name={cards.name}
+            gender={cards.gender}
+            birth_year={cards.birth_year}
 
             />
     ))
 
     return (
-        <div>
-            {card}
+        <div className="card">
+            {cards}
         </div>
     )
 

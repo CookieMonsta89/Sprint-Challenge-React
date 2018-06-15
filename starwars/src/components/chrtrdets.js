@@ -1,14 +1,19 @@
 import React from 'react';
+import './StarWars.css';
 
 const CharacterDetails = (props) => {
     return (
-        <div>
-            <h1>
+        <div className="carddiv">
+            <h1 className="name">
             Name: {props.name}
             </h1>
             <h1>
+            
             Gender: {props.gender}
             
+            </h1>
+            <h1>
+            Birth Year: {props.birth_year}
             </h1>
         
         
