@@ -1,12 +1,12 @@
 import React from 'react';
 import './StarWars.css';
-import luke from './luke.jpg';
+
 
 const CharacterDetails = (props) => {
     return (
         <div className="carddiv">
    
-   <img src={luke} alt="well" />
+   
             
             <h1>
             Name: {props.name}
