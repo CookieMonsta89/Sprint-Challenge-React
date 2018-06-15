@@ -3,6 +3,7 @@ import './App.css';
 import Character from './components/charactercard';
 
 
+
 class App extends Component {
   constructor() {
     super();
@@ -39,6 +40,7 @@ class App extends Component {
       <div className="App">
         <h1 className="Header">React Wars</h1>
         <div className="cardstyle">
+        
         <Character info={this.state} />
         </div>
                 

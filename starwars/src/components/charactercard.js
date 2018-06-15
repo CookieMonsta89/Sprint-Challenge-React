@@ -8,11 +8,14 @@ const Character = (props) => {
             gender={cards.gender}
             birth_year={cards.birth_year}
 
+
             />
     ))
 
     return (
+        
         <div className="card">
+        
             {cards}
         </div>
     )
