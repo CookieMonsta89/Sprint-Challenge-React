@@ -6,6 +6,10 @@ const CharacterDetails = (props) => {
             <h1>
             Name: {props.name}
             </h1>
+            <h1>
+            Gender: {props.gender}
+            
+            </h1>
         
         
         

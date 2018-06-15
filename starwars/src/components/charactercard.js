@@ -5,7 +5,8 @@ const Character = (props) => {
     let card = props.info.starwarsChars.map(card => (
         <CharacterDetails
             name={card.name}
-            key={Date.now() + Math.random()}
+            gender={card.gender}
+
             />
     ))
 
