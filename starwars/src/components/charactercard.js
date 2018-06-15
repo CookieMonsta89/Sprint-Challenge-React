@@ -7,6 +7,7 @@ const Character = (props) => {
             name={cards.name}
             gender={cards.gender}
             birth_year={cards.birth_year}
+            key={cards.created}
 
 
             />
@@ -17,6 +18,8 @@ const Character = (props) => {
         <div className="card">
         
             {cards}
+            
+            
         </div>
     )
 

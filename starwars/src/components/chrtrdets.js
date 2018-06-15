@@ -6,7 +6,7 @@ const CharacterDetails = (props) => {
     return (
         <div className="carddiv">
    
-   <img src={luke} />
+   <img src={luke} alt="well" />
             
             <h1>
             Name: {props.name}
